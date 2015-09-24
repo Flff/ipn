@@ -18,7 +18,7 @@ def ipn(fip, sip, mask):
 
 if __name__ == "__main__":
     if len(sys.argv) != 4:
-        print ("Usage: ipn first_ip second_ip bigger_hamming_weight_mask")
+        print ("Usage: ipn first_ip second_ip nb_bits_netid")
         print ("If these ip are in the same network print \"Ok !\".")
         print ("")
         print ("Example usage:")
